@@ -1,0 +1,29 @@
+.tableRow .col {
+    float: left;
+    padding: 15px 20px;
+    background: #f9f9f9;
+    width: 20px;
+    border-right: 1px solid #d8d8d8;
+    cursor: pointer;
+    border-bottom: 1px solid #d8d8d8;
+}
+.spcCol {
+    width: 81px!important;
+}
+.lstCol {
+    border-right: none!important;
+    background: #f5a108!important;
+    color: white;
+}
+.calcOuter {
+    width: 243px;
+    margin: 30px auto;
+}
+.calcHeader{
+    background: black;
+    color: white;
+    font-size: 26px;
+    text-align: right;
+    padding: 12px 6px 1px 0;
+    border-radius: 5px 5px 0 0;
+}

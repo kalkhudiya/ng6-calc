@@ -1,0 +1,30 @@
+<div class="calcOuter">
+  <div class="calcHeader">
+    {{output}}
+  </div>
+  <div class="tableBody">
+    <div class="tableRow">
+      <div (click)='btnClicked(7)' class="col">7</div>
+      <div (click)='btnClicked(8)' class="col">8</div>
+      <div (click)='btnClicked(9)' class="col">9</div>
+      <div class="col lstCol" (click)='operatorClicked("MUL")'>X</div>
+    </div>
+    <div class="tableRow">
+      <div (click)='btnClicked(4)' class="col">4</div>
+      <div (click)='btnClicked(5)' class="col">5</div>
+      <div (click)='btnClicked(6)' class="col">6</div>
+      <div class="col lstCol" (click)='operatorClicked("SUB")'>-</div>
+    </div>
+    <div class="tableRow">
+      <div (click)='btnClicked(1)' class="col">1</div>
+      <div (click)='btnClicked(2)' class="col">2</div>
+      <div (click)='btnClicked(3)' class="col">3</div>
+      <div class="col lstCol" (click)='operatorClicked("ADD")'>+</div>
+    </div>
+    <div class="tableRow">
+      <div (click)='btnClicked(0)' class="col">0</div>
+      <div (click)="resetCalc(true)" class="col spcCol">AC</div>
+      <div class="col lstCol" (click)="calculate()">=</div>
+    </div>
+  </div>
+</div>
